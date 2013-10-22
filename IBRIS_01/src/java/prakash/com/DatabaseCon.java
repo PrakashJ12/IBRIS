@@ -60,8 +60,9 @@ public class DatabaseCon {
             System.out.println("row value : " +result.getString("email"));
             System.out.println("row value : " +result.getString("password"));            
         }
-String u="llll@sdasds.com";
-        int update = db.update("INSERT INTO  `remotecontrol`.`userdata` ( `u_id` , `u_name` , `password` , `mobile` , `email`)VALUES (NULL ,  'pra',  'dfdf',  'fdfdf',  '"+u+"')");
+String mail="llll@sdasds.com";
+String user="test_01";
+        int update = db.update("INSERT INTO  `remotecontrol`.`userdata` ( `u_id` , `u_name` , `password` , `mobile` , `email`)VALUES (NULL ,  '"+user+"',  'dfdf',  'fdfdf',  '"+mail+"')");
         if(update>0){
             System.out.println("inserted");
         } else {
