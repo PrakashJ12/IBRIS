@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package vision.testcase;
+package prakash.com;
 
 import net.sf.json.JSONObject;
 
